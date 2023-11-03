@@ -1,7 +1,7 @@
 list_players = ["Маша", "Петя", "Саша", "Оля", "Кирилл", "Коля"]
-Индекс_середины = len(list_players) // 2
-Первая_команда = list_players[:Индекс_середины]
-Вторая_команда = list_players[Индекс_середины:]
-print(Первая_команда)
-print(Вторая_команда)
+index = len(list_players) // 2  # Индекс середины
+first_team = list_players[:index]
+second_team = list_players[index:]
+print(first_team)
+print(second_team)
 
